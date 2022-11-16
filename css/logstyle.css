@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --stdMargin:3rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    
+}
+#bg5{
+    position: absolute;
+width: 1282px;
+height: 865px;
+left: 159px;
+top: 5px;
+
+background: url(bg5.png);
+opacity: 0.2;
+}
+
+#logo{
+    position: absolute;
+width: 119px;
+height: 122px;
+left: 728px;
+top: 15px;
+
+background: url(logo.png);
+}
+#sign{
+    position: absolute;
+width: 333px;
+height: 102px;
+left: 631px;
+top: 172px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 58px;
+text-align: center;
+
+color: #000000;
+}
+
+#mail{
+    box-sizing: border-box;
+
+position: absolute;
+width: 433px;
+height: 50px;
+left: 583px;
+top: 310px;
+
+background: #fff9f9;
+
+border: 1px solid rgba(0, 0, 0, 0.2);
+}
+#ml{
+    position: absolute;
+    width: 433px;
+    height: 50px;
+    left: 583px;
+    top: 264px;
+    
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+
+}
+#psd{
+    position: absolute;
+width: 428px;
+height: 49px;
+left: 586px;
+top: 360px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 29px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+#pwd{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 433px;
+    height: 49px;
+    left: 583px;
+    top: 404px;
+    
+    background: #fff9f9;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+#cb{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 619px;
+top: 462px;
+
+background: #FFF4F4;
+}
+#sugg{
+    position: absolute;
+width: 297px;
+height: 26px;
+left: 651px;
+top: 462px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+#polic{
+    position: absolute;
+width: 413px;
+height: 50px;
+left: 593px;
+top: 498px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 23px;
+display: flex;
+align-items: center;
+
+color: #438DD1;
+}
+#sg{
+    box-sizing: border-box;
+
+position: absolute;
+width: 345px;
+height: 67px;
+left: 635px;
+top: 555px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 58px;
+text-align: center;
+
+color: #000000;
+
+
+
+border: 1px solid #FBFBFB;
+    position: absolute;
+width: 345px;
+height: 67px;
+left: 635px;
+top: 555px;
+
+background: #438DD1;
+border-radius: 45px;
+}
+#q{
+    
+position: absolute;
+width: 145px;
+height: 23px;
+left: 744px;
+top: 680px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration-line: underline;
+
+color: #438DD1;
+}
+#q2{
+    position: absolute;
+width: 248px;
+height: 14px;
+left: 692px;
+top: 720px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+#optn{
+    position: absolute;
+width: 97px;
+height: 23px;
+left: 768px;
+top: 745px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+#insta{
+    position: absolute;
+width: 32px;
+height: 27px;
+left: 796px;
+top: 775px;
+
+background: url(insta.png);
+}
+#twitter{
+    position: absolute;
+width: 31px;
+height: 23px;
+left: 747px;
+top: 775px;
+
+background: url(twitter.png);
+}
+#ln{
+    position: absolute;
+width: 34px;
+height: 26px;
+left: 843px;
+top: 775px;
+
+background: url(ln.png);
+}
